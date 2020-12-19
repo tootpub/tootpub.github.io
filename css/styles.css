@@ -1,0 +1,61 @@
+
+body, 
+html {
+    margin: 0;
+    height: 100%;
+    background-color: #292b2c !important;
+}
+
+/* .cover {
+    background-image: url("../images/cover-a.svg");
+    background-color: #292b2c;
+    height: 50%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* ----------------------------------------------- */
+  .header{
+    background-image: url("/images/cover.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0, 0.0);
+   }
+
+   .description{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    padding: 1em;
+    }
+/* ----------------------------------------------- */
+
+.line-break {
+    /* to use \n for line break in text */
+    white-space: pre-line !important;
+}
+
+.tall {
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    width: calc(100vh/1.77);
+}
+
+.wide {
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    height: calc(100vw/1.77);
+}

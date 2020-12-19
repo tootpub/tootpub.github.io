@@ -1,0 +1,13 @@
+{
+  "name": "VinuMon",
+  "short_name": "VinuMon",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [{
+  "src": "images/icons/brand-logo-192x192",
+    "sizes": "192x192",
+    "type": "image/png"
+  }],
+  "theme_color": "#dc3545"
+}
